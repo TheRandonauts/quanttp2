@@ -1,5 +1,5 @@
-Pod Entropy Server
-==================
+Quanttp 2 Entropy Server
+========================
 
 _based on [quanttp](https://github.com/awasisto/quanttp) by [Andika Wasisto](https://www.wasisto.com/)_
 
