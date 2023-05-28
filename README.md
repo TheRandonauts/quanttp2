@@ -3,7 +3,7 @@ Quanttp 2 Entropy Server
 
 _based on [quanttp](https://github.com/awasisto/quanttp) by [Andika Wasisto](https://www.wasisto.com/)_
 
-An HTTP API that wraps [ComScire quantum random number generator API](https://comscire.com/downloads/qwqngdoc/).
+An HTTP API that wraps [MeterFeeder](https://github.com/TheRandonauts/MeterFeeder) instead of the [ComScire quantum random number generator API](https://comscire.com/downloads/qwqngdoc/) to support serving entropy from multiple devices. It also adds JSON endpoints.
 
 Running
 -------
@@ -36,9 +36,6 @@ Usage Example
 	< ���E��s_�b����G�
 
 ### REST JSON API
-
-	http://localhost:<port>/api/json/randint32?length=3&deviceId=QWR4E001
-	< {"devices":['QWR4E002|MED100KX8 100 kHz', 'QWR4E001|MED100KX8 100 kHz']}
 
 	http://localhost:<port>/api/json/randint32?length=3&deviceId=QWR4E001
 	< {"server": "<servername>", "type": "string", "format": "int32", "length": 3, "data": [1524492492, -1194151004, 1365408501], "success": "true"}
