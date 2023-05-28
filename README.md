@@ -103,7 +103,7 @@ License
 -------
 
     Copyright (c) 2020 Andika Wasisto
-	Modified by Tobias Raayoni Last / Randonauts Co.
+	Modified by randogoth / Randonauts Co.
 	Modified by soliax / fp2.dev
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
