@@ -1,7 +1,7 @@
 ##
  # MeterFeeder Library Wrapper
  # 
- # by soliax
+ # by soliax, randogoth
  ##
  
 from platform import os
@@ -15,13 +15,13 @@ class MeterFeederWrapper:
     def __init__(self):
         if platform == "linux" or platform == "linux2":
             # Linux
-            self._meterfeeder = cdll.LoadLibrary(os.getcwd() + '/libmeterfeeder.so')
+            self._meterfeeder = cdll.LoadLibrary(os.getcwd() + '/MeterFeeder/builds/linux/libmeterfeeder.so')
         elif platform == "darwin":
             # OS X
-            self._meterfeeder = cdll.LoadLibrary(os.getcwd() + '/libmeterfeeder.dylib')
+            self._meterfeeder = cdll.LoadLibrary(os.getcwd() + '/MeterFeeder/builds/mac/libmeterfeeder.dylib')
         elif platform == "win32":
             # Windows
-            self._meterfeeder = cdll.LoadLibrary(os.getcwd() + '/meterfeeder.dll')
+            self._meterfeeder = cdll.LoadLibrary(os.getcwd() + '/MeterFeeder/builds/windows/meterfeeder.dll')
 
         # Declare function bridging
         self._meterfeeder.MF_Initialize.argtypes = c_char_p,
