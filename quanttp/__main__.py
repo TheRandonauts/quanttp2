@@ -1,5 +1,5 @@
 # Copyright (c) 2020 Andika Wasisto
-# Modified by Tobias Raayoni Last
+# Modified by randogoth
 # Modified by soliax
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy

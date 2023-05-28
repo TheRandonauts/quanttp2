@@ -2,3 +2,4 @@ __pycache__/
 *.iml
 .idea/
 .venv/
+debug.log

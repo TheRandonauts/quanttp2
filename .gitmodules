@@ -1,3 +1,4 @@
 [submodule "MeterFeeder"]
 	path = MeterFeeder
 	url = git@github.com:TheRandonauts/MeterFeeder.git
+	shallow = true
